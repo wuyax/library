@@ -1,0 +1,20 @@
+{
+  "markdown": {
+      "parser": "gfm",
+      "hardwrap": true
+  },
+  "templates": {
+      "name": "九次方插件库",
+      "footerText": "九次方",
+      "logo": {
+        "link": "https://github.com/nhnent/tui.jsdoc-template"
+      }
+  },
+  "opts": {
+    "template": "build/docdash",
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+  }
+}

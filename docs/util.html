@@ -1,0 +1,5736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>util - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">JFE</a></h2><h3>Namespaces</h3><ul><li><a href="chart.html">chart</a></li><li><a href="util.html">util</a><ul class='methods'><li data-type='method'><a href="util.html#.arrayConcat">arrayConcat</a></li><li data-type='method'><a href="util.html#.arrayMaxOrMin">arrayMaxOrMin</a></li><li data-type='method'><a href="util.html#.arrayUnique">arrayUnique</a></li><li data-type='method'><a href="util.html#.arrayUnique">arrayUnique</a></li><li data-type='method'><a href="util.html#.arrShuffle">arrShuffle</a></li><li data-type='method'><a href="util.html#.arrShuffle">arrShuffle</a></li><li data-type='method'><a href="util.html#.checkEmail">checkEmail</a></li><li data-type='method'><a href="util.html#.checkNotNull">checkNotNull</a></li><li data-type='method'><a href="util.html#.checkPhone">checkPhone</a></li><li data-type='method'><a href="util.html#.checkString">checkString</a></li><li data-type='method'><a href="util.html#.classOf">classOf</a></li><li data-type='method'><a href="util.html#.compare">compare</a></li><li data-type='method'><a href="util.html#.cookieDel">cookieDel</a></li><li data-type='method'><a href="util.html#.cookieGet">cookieGet</a></li><li data-type='method'><a href="util.html#.cookieSet">cookieSet</a></li><li data-type='method'><a href="util.html#.excerpt">excerpt</a></li><li data-type='method'><a href="util.html#.extend">extend</a></li><li data-type='method'><a href="util.html#.formatTime">formatTime</a></li><li data-type='method'><a href="util.html#.fullScreen">fullScreen</a></li><li data-type='method'><a href="util.html#.isArray">isArray</a></li><li data-type='method'><a href="util.html#.isBrowser">isBrowser</a></li><li data-type='method'><a href="util.html#.isCharacter">isCharacter</a></li><li data-type='method'><a href="util.html#.isDate">isDate</a></li><li data-type='method'><a href="util.html#.isFunction">isFunction</a></li><li data-type='method'><a href="util.html#.isInteger">isInteger</a></li><li data-type='method'><a href="util.html#.isNumber">isNumber</a></li><li data-type='method'><a href="util.html#.isObject">isObject</a></li><li data-type='method'><a href="util.html#.isObjectEmpty">isObjectEmpty</a></li><li data-type='method'><a href="util.html#.maxObj">maxObj</a></li><li data-type='method'><a href="util.html#.openWindow">openWindow</a></li><li data-type='method'><a href="util.html#.Random">Random</a></li><li data-type='method'><a href="util.html#.strContains">strContains</a></li><li data-type='method'><a href="util.html#.urlArgs">urlArgs</a></li><li data-type='method'><a href="util.html#.urlTrans">urlTrans</a></li></ul></li><li><a href="visual.html">visual</a></li></ul><h3>Classes</h3><ul><li><a href="module-Map3D-Area.html">Area</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Area.html#getExtrudeGeometry">getExtrudeGeometry</a></li><li data-type='method'><a href="module-Map3D-Area.html#getGeoMesh">getGeoMesh</a></li><li data-type='method'><a href="module-Map3D-Area.html#getGeoPoints">getGeoPoints</a></li><li data-type='method'><a href="module-Map3D-Area.html#getLine">getLine</a></li><li data-type='method'><a href="module-Map3D-Area.html#getMesh">getMesh</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-Area.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Area.html#setPosition">setPosition</a></li><li data-type='method'><a href="module-Map3D-Area.html#setRotation">setRotation</a></li><li data-type='method'><a href="module-Map3D-Area.html#setScale">setScale</a></li></ul></li><li><a href="module-Map3D-DataRange.html">DataRange</a><ul class='methods'><li data-type='method'><a href="module-Map3D-DataRange.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#select">select</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#unselect">unselect</a></li></ul></li><li><a href="module-Map3D-Line.html">Line</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Line.html#.draw">draw</a></li><li data-type='method'><a href="module-Map3D-Line.html#initHalo">initHalo</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-Line.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Line.html#setLineWidth">setLineWidth</a></li></ul></li><li><a href="module-Map3D-Map3D.html">Map3D</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Map3D.html#.transition">transition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#addCameraPosition">addCameraPosition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#createArea">createArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#disable">disable</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#dispose">dispose</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getArea">getArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getMark">getMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getObjectsByName">getObjectsByName</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#inintDataRange">inintDataRange</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#init">init</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initArea">initArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initControls">initControls</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initDebug">initDebug</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initLine">initLine</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initMark">initMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initStats">initStats</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#printCameraPosition">printCameraPosition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#removeMark">removeMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#renderScene">renderScene</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#reomveArea">reomveArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#setCameraPosition">setCameraPosition</a></li></ul></li><li><a href="module-Map3D-Mark.html">Mark</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Mark.html#.draw">draw</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setPosition">setPosition</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setRotation">setRotation</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setScale">setScale</a></li></ul></li><li><a href="module-Nebula-Nebula.html">Nebula</a><ul class='methods'><li data-type='method'><a href="module-Nebula-Nebula.html#rotate">rotate</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-charts.html">charts</a></li><li><a href="module-Map3D.html">Map3D</a><ul class='methods'><li data-type='method'><a href="module-Map3D.html#~colorToHex">colorToHex</a></li></ul></li><li><a href="module-Nebula.html">Nebula</a></li></ul><h3>Global</h3><ul><li><a href="global.html#_Math">_Math</a></li><li><a href="global.html#absNumericalSort">absNumericalSort</a></li><li><a href="global.html#addLineNumbers">addLineNumbers</a></li><li><a href="global.html#AmbientLight">AmbientLight</a></li><li><a href="global.html#AnimationAction">AnimationAction</a></li><li><a href="global.html#AnimationClip">AnimationClip</a></li><li><a href="global.html#AnimationMixer">AnimationMixer</a></li><li><a href="global.html#AnimationObjectGroup">AnimationObjectGroup</a></li><li><a href="global.html#AnimationUtils">AnimationUtils</a></li><li><a href="global.html#ArrayCamera">ArrayCamera</a></li><li><a href="global.html#arrayMax">arrayMax</a></li><li><a href="global.html#Audio">Audio</a></li><li><a href="global.html#AudioAnalyser">AudioAnalyser</a></li><li><a href="global.html#AudioListener">AudioListener</a></li><li><a href="global.html#AudioLoader">AudioLoader</a></li><li><a href="global.html#AxisHelper">AxisHelper</a></li><li><a href="global.html#Bone">Bone</a></li><li><a href="global.html#BooleanKeyframeTrack">BooleanKeyframeTrack</a></li><li><a href="global.html#Box2">Box2</a></li><li><a href="global.html#Box3">Box3</a></li><li><a href="global.html#Box3Helper">Box3Helper</a></li><li><a href="global.html#BoxGeometry">BoxGeometry</a></li><li><a href="global.html#BoxHelper">BoxHelper</a></li><li><a href="global.html#Browser">Browser</a></li><li><a href="global.html#BufferAttribute">BufferAttribute</a></li><li><a href="global.html#BufferGeometry">BufferGeometry</a></li><li><a href="global.html#BufferGeometryLoader">BufferGeometryLoader</a></li><li><a href="global.html#Cache">Cache</a></li><li><a href="global.html#Camera">Camera</a></li><li><a href="global.html#CameraHelper">CameraHelper</a></li><li><a href="global.html#CanvasTexture">CanvasTexture</a></li><li><a href="global.html#CatmullRom">CatmullRom</a></li><li><a href="global.html#CircleGeometry">CircleGeometry</a></li><li><a href="global.html#Clock">Clock</a></li><li><a href="global.html#ColorKeyframeTrack">ColorKeyframeTrack</a></li><li><a href="global.html#ColorKeywords">ColorKeywords</a></li><li><a href="global.html#Composite">Composite</a></li><li><a href="global.html#CompressedTexture">CompressedTexture</a></li><li><a href="global.html#CompressedTextureLoader">CompressedTextureLoader</a></li><li><a href="global.html#ConeGeometry">ConeGeometry</a></li><li><a href="global.html#count">count</a></li><li><a href="global.html#CubeCamera">CubeCamera</a></li><li><a href="global.html#CubeTexture">CubeTexture</a></li><li><a href="global.html#CubeTextureLoader">CubeTextureLoader</a></li><li><a href="global.html#CubicInterpolant">CubicInterpolant</a></li><li><a href="global.html#CylinderGeometry">CylinderGeometry</a></li><li><a href="global.html#Cylindrical">Cylindrical</a></li><li><a href="global.html#DataTexture">DataTexture</a></li><li><a href="global.html#DataTextureLoader">DataTextureLoader</a></li><li><a href="global.html#debug">debug</a></li><li><a href="global.html#DepthTexture">DepthTexture</a></li><li><a href="global.html#Detector">Detector</a></li><li><a href="global.html#DirectGeometry">DirectGeometry</a></li><li><a href="global.html#DirectionalLight">DirectionalLight</a></li><li><a href="global.html#DirectionalLightHelper">DirectionalLightHelper</a></li><li><a href="global.html#DirectionalLightShadow">DirectionalLightShadow</a></li><li><a href="global.html#DiscreteInterpolant">DiscreteInterpolant</a></li><li><a href="global.html#DodecahedronGeometry">DodecahedronGeometry</a></li><li><a href="global.html#EdgesGeometry">EdgesGeometry</a></li><li><a href="global.html#emptyTexture">emptyTexture</a></li><li><a href="global.html#Euler">Euler</a></li><li><a href="global.html#EventDispatcher">EventDispatcher</a></li><li><a href="global.html#ExtrudeGeometry">ExtrudeGeometry</a></li><li><a href="global.html#Face3">Face3</a></li><li><a href="global.html#Face4">Face4</a></li><li><a href="global.html#FaceNormalsHelper">FaceNormalsHelper</a></li><li><a href="global.html#FileLoader">FileLoader</a></li><li><a href="global.html#Fog">Fog</a></li><li><a href="global.html#FogExp2">FogExp2</a></li><li><a href="global.html#Font">Font</a></li><li><a href="global.html#FontLoader">FontLoader</a></li><li><a href="global.html#Frustum">Frustum</a></li><li><a href="global.html#getBoneList">getBoneList</a></li><li><a href="global.html#getFocalLength">getFocalLength</a></li><li><a href="global.html#GridHelper">GridHelper</a></li><li><a href="global.html#Group">Group</a></li><li><a href="global.html#HemisphereLight">HemisphereLight</a></li><li><a href="global.html#HemisphereLightHelper">HemisphereLightHelper</a></li><li><a href="global.html#IcosahedronGeometry">IcosahedronGeometry</a></li><li><a href="global.html#ImageLoader">ImageLoader</a></li><li><a href="global.html#ImmediateRenderObject">ImmediateRenderObject</a></li><li><a href="global.html#InstancedBufferAttribute">InstancedBufferAttribute</a></li><li><a href="global.html#InstancedBufferGeometry">InstancedBufferGeometry</a></li><li><a href="global.html#InstancedInterleavedBuffer">InstancedInterleavedBuffer</a></li><li><a href="global.html#InterleavedBuffer">InterleavedBuffer</a></li><li><a href="global.html#InterleavedBufferAttribute">InterleavedBufferAttribute</a></li><li><a href="global.html#Interpolant">Interpolant</a></li><li><a href="global.html#JSONLoader">JSONLoader</a></li><li><a href="global.html#KeyframeTrack">KeyframeTrack</a></li><li><a href="global.html#LatheGeometry">LatheGeometry</a></li><li><a href="global.html#Layers">Layers</a></li><li><a href="global.html#LensFlare">LensFlare</a></li><li><a href="global.html#Light">Light</a></li><li><a href="global.html#LightShadow">LightShadow</a></li><li><a href="global.html#Line">Line</a></li><li><a href="global.html#Line3">Line3</a></li><li><a href="global.html#LinearInterpolant">LinearInterpolant</a></li><li><a href="global.html#LineBasicMaterial">LineBasicMaterial</a></li><li><a href="global.html#LineDashedMaterial">LineDashedMaterial</a></li><li><a href="global.html#lineGeometry">lineGeometry</a></li><li><a href="global.html#LineLoop">LineLoop</a></li><li><a href="global.html#LineSegments">LineSegments</a></li><li><a href="global.html#Loader">Loader</a></li><li><a href="global.html#LoadingManager">LoadingManager</a></li><li><a href="global.html#LOD">LOD</a></li><li><a href="global.html#materialId">materialId</a></li><li><a href="global.html#MaterialLoader">MaterialLoader</a></li><li><a href="global.html#Matrix3">Matrix3</a></li><li><a href="global.html#Matrix4">Matrix4</a></li><li><a href="global.html#Mesh">Mesh</a></li><li><a href="global.html#MeshBasicMaterial">MeshBasicMaterial</a></li><li><a href="global.html#MeshDepthMaterial">MeshDepthMaterial</a></li><li><a href="global.html#MeshDistanceMaterial">MeshDistanceMaterial</a></li><li><a href="global.html#MeshLambertMaterial">MeshLambertMaterial</a></li><li><a href="global.html#MeshNormalMaterial">MeshNormalMaterial</a></li><li><a href="global.html#MeshPhongMaterial">MeshPhongMaterial</a></li><li><a href="global.html#MeshPhysicalMaterial">MeshPhysicalMaterial</a></li><li><a href="global.html#MeshStandardMaterial">MeshStandardMaterial</a></li><li><a href="global.html#MeshToonMaterial">MeshToonMaterial</a></li><li><a href="global.html#NumberKeyframeTrack">NumberKeyframeTrack</a></li><li><a href="global.html#object3DId">object3DId</a></li><li><a href="global.html#ObjectLoader">ObjectLoader</a></li><li><a href="global.html#OctahedronGeometry">OctahedronGeometry</a></li><li><a href="global.html#OrbitControls">OrbitControls</a></li><li><a href="global.html#OrthographicCamera">OrthographicCamera</a></li><li><a href="global.html#painterSortStable">painterSortStable</a></li><li><a href="global.html#ParametricGeometry">ParametricGeometry</a></li><li><a href="global.html#Path">Path</a></li><li><a href="global.html#PerspectiveCamera">PerspectiveCamera</a></li><li><a href="global.html#Plane">Plane</a></li><li><a href="global.html#PlaneGeometry">PlaneGeometry</a></li><li><a href="global.html#PlaneHelper">PlaneHelper</a></li><li><a href="global.html#PointLight">PointLight</a></li><li><a href="global.html#PointLightHelper">PointLightHelper</a></li><li><a href="global.html#Points">Points</a></li><li><a href="global.html#PointsMaterial">PointsMaterial</a></li><li><a href="global.html#PolarGridHelper">PolarGridHelper</a></li><li><a href="global.html#PolyhedronGeometry">PolyhedronGeometry</a></li><li><a href="global.html#PositionalAudio">PositionalAudio</a></li><li><a href="global.html#programIdCount">programIdCount</a></li><li><a href="global.html#PropertyMixer">PropertyMixer</a></li><li><a href="global.html#Quaternion">Quaternion</a></li><li><a href="global.html#QuaternionKeyframeTrack">QuaternionKeyframeTrack</a></li><li><a href="global.html#QuaternionLinearInterpolant">QuaternionLinearInterpolant</a></li><li><a href="global.html#RawShaderMaterial">RawShaderMaterial</a></li><li><a href="global.html#Ray">Ray</a></li><li><a href="global.html#Raycaster">Raycaster</a></li><li><a href="global.html#RectAreaLight">RectAreaLight</a></li><li><a href="global.html#RectAreaLightHelper">RectAreaLightHelper</a></li><li><a href="global.html#RingGeometry">RingGeometry</a></li><li><a href="global.html#sanitizeNodeName">sanitizeNodeName</a></li><li><a href="global.html#Scene">Scene</a></li><li><a href="global.html#SceneUtils">SceneUtils</a></li><li><a href="global.html#setFocalLength">setFocalLength</a></li><li><a href="global.html#setViewOffset">setViewOffset</a></li><li><a href="global.html#ShaderLib">ShaderLib</a></li><li><a href="global.html#ShaderMaterial">ShaderMaterial</a></li><li><a href="global.html#ShadowMaterial">ShadowMaterial</a></li><li><a href="global.html#Shape">Shape</a></li><li><a href="global.html#ShapeGeometry">ShapeGeometry</a></li><li><a href="global.html#ShapePath">ShapePath</a></li><li><a href="global.html#ShapeUtils">ShapeUtils</a></li><li><a href="global.html#Skeleton">Skeleton</a></li><li><a href="global.html#SkinnedMesh">SkinnedMesh</a></li><li><a href="global.html#Sphere">Sphere</a></li><li><a href="global.html#SphereGeometry">SphereGeometry</a></li><li><a href="global.html#Spherical">Spherical</a></li><li><a href="global.html#SpotLight">SpotLight</a></li><li><a href="global.html#SpotLightHelper">SpotLightHelper</a></li><li><a href="global.html#SpotLightShadow">SpotLightShadow</a></li><li><a href="global.html#Sprite">Sprite</a></li><li><a href="global.html#SpriteMaterial">SpriteMaterial</a></li><li><a href="global.html#Stats">Stats</a></li><li><a href="global.html#StereoCamera">StereoCamera</a></li><li><a href="global.html#StringKeyframeTrack">StringKeyframeTrack</a></li><li><a href="global.html#TetrahedronGeometry">TetrahedronGeometry</a></li><li><a href="global.html#TextGeometry">TextGeometry</a></li><li><a href="global.html#textureId">textureId</a></li><li><a href="global.html#TextureLoader">TextureLoader</a></li><li><a href="global.html#TorusGeometry">TorusGeometry</a></li><li><a href="global.html#TorusKnotGeometry">TorusKnotGeometry</a></li><li><a href="global.html#Triangle">Triangle</a></li><li><a href="global.html#TubeGeometry">TubeGeometry</a></li><li><a href="global.html#Uniform">Uniform</a></li><li><a href="global.html#UniformsCache">UniformsCache</a></li><li><a href="global.html#UniformsLib">UniformsLib</a></li><li><a href="global.html#UniformsUtils">UniformsUtils</a></li><li><a href="global.html#Vector2">Vector2</a></li><li><a href="global.html#Vector3">Vector3</a></li><li><a href="global.html#Vector4">Vector4</a></li><li><a href="global.html#VectorKeyframeTrack">VectorKeyframeTrack</a></li><li><a href="global.html#VertexNormalsHelper">VertexNormalsHelper</a></li><li><a href="global.html#VideoTexture">VideoTexture</a></li><li><a href="global.html#WebGLAttributes">WebGLAttributes</a></li><li><a href="global.html#WebGLBackground">WebGLBackground</a></li><li><a href="global.html#WebGLBufferRenderer">WebGLBufferRenderer</a></li><li><a href="global.html#WebGLCapabilities">WebGLCapabilities</a></li><li><a href="global.html#WebGLClipping">WebGLClipping</a></li><li><a href="global.html#WebGLExtensions">WebGLExtensions</a></li><li><a href="global.html#WebGLFlareRenderer">WebGLFlareRenderer</a></li><li><a href="global.html#WebGLGeometries">WebGLGeometries</a></li><li><a href="global.html#WebGLIndexedBufferRenderer">WebGLIndexedBufferRenderer</a></li><li><a href="global.html#WebGLObjects">WebGLObjects</a></li><li><a href="global.html#WebGLPrograms">WebGLPrograms</a></li><li><a href="global.html#WebGLProperties">WebGLProperties</a></li><li><a href="global.html#WebGLRenderer">WebGLRenderer</a></li><li><a href="global.html#WebGLRenderTargetCube">WebGLRenderTargetCube</a></li><li><a href="global.html#WebGLShadowMap">WebGLShadowMap</a></li><li><a href="global.html#WebGLSpriteRenderer">WebGLSpriteRenderer</a></li><li><a href="global.html#WebGLState">WebGLState</a></li><li><a href="global.html#WebGLTextures">WebGLTextures</a></li><li><a href="global.html#WebGLUtils">WebGLUtils</a></li><li><a href="global.html#WebVRManager">WebVRManager</a></li><li><a href="global.html#WireframeGeometry">WireframeGeometry</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">util</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        util
+        </h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_index.js.html">util/index.js</a>, <a href="util_index.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+        
+            <div class="description">JFE脚本库，JFE.util下挂载了项目中常见的工具函数</div>
+        
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrayConcat"><span class="type-signature">(static) </span>arrayConcat<span class="signature">(arr)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_array_arrayConcat.js.html">util/array/arrayConcat.js</a>, <a href="util_array_arrayConcat.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.comxxxx></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    合并多个数组为一个数组。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.arrayConcat([1,2],[3,4],[5,6]) //[1,2,3,4,5,6]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">多个数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrayMaxOrMin"><span class="type-signature">(static) </span>arrayMaxOrMin<span class="signature">(arr, MaxOrMin)</span><span class="type-signature"> &rarr; {Number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_array_getArrayMaxOrMin.js.html">util/array/getArrayMaxOrMin.js</a>, <a href="util_array_getArrayMaxOrMin.js.html#line13">line 13</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    取得数组中的最大值或者最小值。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>const a =  JFE.util.getArrayMaxOrMin([1,2,3,4,5,6.6,0.1,'aaa'],'min')
+      console.log(a) //0.1</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数组</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>MaxOrMin</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">最大值还是最小值 'max' or 'min'</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Number</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrayUnique"><span class="type-signature">(static) </span>arrayUnique<span class="signature">(arr)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="testTool_tool_unique.js.html">testTool/tool/unique.js</a>, <a href="testTool_tool_unique.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    数组去重。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>const a = [1,1,2,3,3,5,6]
+JFE.util.unique(a) //[1,2,3,5,6]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrayUnique"><span class="type-signature">(static) </span>arrayUnique<span class="signature">(arr)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_array_unique.js.html">util/array/unique.js</a>, <a href="util_array_unique.js.html#line15">line 15</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    数组去重。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>const a = [1,1,2,3,3,5,6]   
+
+JFE.util.unique(a) //[1,2,3,5,6]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrShuffle"><span class="type-signature">(static) </span>arrShuffle<span class="signature">(arr)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="testTool_tool_arrayShuffle.js.html">testTool/tool/arrayShuffle.js</a>, <a href="testTool_tool_arrayShuffle.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    打乱一个数组，让其中的值随机组成新数组。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.arrShuffle([1,2,3,4,5,6]) //[3, 4, 6, 2, 5, 1]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".arrShuffle"><span class="type-signature">(static) </span>arrShuffle<span class="signature">(arr)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_array_arrShuffle.js.html">util/array/arrShuffle.js</a>, <a href="util_array_arrShuffle.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    打乱一个数组，让其中的值随机组成新数组。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.arrShuffle([1,2,3,4,5,6]) //[3, 4, 6, 2, 5, 1]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".checkEmail"><span class="type-signature">(static) </span>checkEmail<span class="signature">(str)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_validate_checkEmail.js.html">util/validate/checkEmail.js</a>, <a href="util_validate_checkEmail.js.html#line13">line 13</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    isNotNul： 判断是不是邮箱
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.checkEmail('weibin@jusfoun.com') //true
+  </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".checkNotNull"><span class="type-signature">(static) </span>checkNotNull<span class="signature">(str)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_validate_checkNotNull.js.html">util/validate/checkNotNull.js</a>, <a href="util_validate_checkNotNull.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    isNotNul： 判断是不是null和undefined和空 都不是的话返回true
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.checkNotNull('') //false
+   JFE.util.checkNotNull(null) //false
+   JFE.util.checkNotNull(undefined) //false
+  </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".checkPhone"><span class="type-signature">(static) </span>checkPhone<span class="signature">(str)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_validate_checkPhone.js.html">util/validate/checkPhone.js</a>, <a href="util_validate_checkPhone.js.html#line13">line 13</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    isNotNul： 判断是不是手机号
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.checkPhone(123) //false
+  </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".checkString"><span class="type-signature">(static) </span>checkString<span class="signature">(str)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_validate_checkString.js.html">util/validate/checkString.js</a>, <a href="util_validate_checkString.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    checkString //只能包括中文、英文字母、数字和下划线
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.checkString('123F_213bald*') //false
+  </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".classOf"><span class="type-signature">(static) </span>classOf<span class="signature">(val)</span><span class="type-signature"> &rarr; {*}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_classOf.js.html">util/common/classOf.js</a>, <a href="util_common_classOf.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>韩凯波  &lt;hkb@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断对象的类型
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.classOf({}) // 'Object' 
+  JFE.util.classOf([]) // 'Array'</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">*</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".compare"><span class="type-signature">(static) </span>compare<span class="signature">(obj1, obj2)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_compare.js.html">util/common/compare.js</a>, <a href="util_common_compare.js.html#line32">line 32</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    比较两个数组，字符串，数字，对象是否相一样。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>const obj1 =  {
+      a:'1',
+      b:{
+          c:'3',
+          d:{
+              e:'4'
+          }
+      }
+  }
+
+ const obj2 =  {
+      a:'1',
+      b:{
+          c:'3',
+          d:{
+              e:'4'
+          }
+      }
+  }
+
+ JFE.util.compare(obj1,obj2) //true</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>obj1</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+|
+
+<span class="param-type">Array</span>
+|
+
+<span class="param-type">String</span>
+|
+
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">可以是数组，字符串，对象，数字</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>obj2</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+|
+
+<span class="param-type">Array</span>
+|
+
+<span class="param-type">String</span>
+|
+
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">可以是数组，字符串，对象，数字</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".cookieDel"><span class="type-signature">(static) </span>cookieDel<span class="signature">(c_name)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_storage_cookieDel.js.html">util/storage/cookieDel.js</a>, <a href="util_storage_cookieDel.js.html#line15">line 15</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    删除cookie。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.cookieDel('xxx') </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>c_name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">cookie名称</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".cookieGet"><span class="type-signature">(static) </span>cookieGet<span class="signature">(name)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_storage_cookieGet.js.html">util/storage/cookieGet.js</a>, <a href="util_storage_cookieGet.js.html#line10">line 10</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    取得cookie。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.cookieGet('xxx') </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">cookie名称</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".cookieSet"><span class="type-signature">(static) </span>cookieSet<span class="signature">(c_name, c_value, days)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_storage_cookieSet.js.html">util/storage/cookieSet.js</a>, <a href="util_storage_cookieSet.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>褚甜甜  &lt;ctt@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    设置cookie。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.cookieSet('xxx','aaaa',7) </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>c_name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">cookie名称</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>c_value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">cookie值</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>days</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">过期时间（天数）</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".excerpt"><span class="type-signature">(static) </span>excerpt<span class="signature">(｛string｝str, nwords)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_excerpt.js.html">util/common/excerpt.js</a>, <a href="util_common_excerpt.js.html#line10">line 10</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>汝银娟（ryj@jusfoun.com）</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    根据给定的字符长度截取文本，如果文本被截取，那么它的后面会自动带上省略号
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>excerpt("如果字数超过5个就截取", 5)</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>｛string｝str</code></td>
+            
+
+            <td class="type">
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">字符串</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>nwords</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">截取长度</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ｛string｝ 截取后的字符串
+</div>
+
+
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".extend"><span class="type-signature">(static) </span>extend<span class="signature">(deep, target, object1, objectN)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_extend.js.html">util/common/extend.js</a>, <a href="util_common_extend.js.html#line34">line 34</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    将两个或更多对象的内容合并到第一个对象。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>var object1 = {
+     apple: 0,
+     banana: { weight: 52, price: 100 },
+     cherry: 97
+ };
+ var object2 = {
+     banana: { price: 200 },
+     durian: 100
+ };
+ // Merge object2 into object1
+ JFE.util.extend( object1, object2 );</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>deep</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">如果是 true，合并成为递归（又叫做深拷贝）。不支持给这个参数传递 false</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>target</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">对象扩展。这将接收新的属性。</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>object1</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">一个对象，它包含额外的属性合并到第一个参数.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>objectN</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">包含额外的属性合并到第一个参数</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".formatTime"><span class="type-signature">(static) </span>formatTime<span class="signature">(timeStamp, needHMS, type<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_formatTime.js.html">util/common/formatTime.js</a>, <a href="util_common_formatTime.js.html#line16">line 16</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>陈胜  &lt;chensheng@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    将时间戳转为时间格式。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>const timestamp=new Date().getTime();
+ JFE.util.formatTime(timestamp,true,'-') 输出：2017-12-22 17:33:17
+ JFE.util.formatTime(timestamp)  输出：2017/12/22
+ JFE.util.foramtTime(timestamp,false,'年月日') 输出2017年12月22日</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>timeStamp</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">时间戳</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>needHMS</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">是否需要小时 分钟 秒。</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'/'</code>
+                
+                </td>
+            
+
+            <td class="description last">时间之间的连接符 默认是 '/' 如果传入字符串 '年月日' 则返回带年月日中文的日期 。</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".fullScreen"><span class="type-signature">(static) </span>fullScreen<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_fullScreen.js.html">util/common/fullScreen.js</a>, <a href="util_common_fullScreen.js.html#line10">line 10</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>商业庆  商业庆</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    控制浏览器全屏和退出全屏
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.fullScreen() //进入全屏
+ JFE.util.exitFullScreen() //退出全屏</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isArray"><span class="type-signature">(static) </span>isArray<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-array.js.html">util/type/is-array.js</a>, <a href="util_type_is-array.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是数组类型。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isArray([]) //true</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isBrowser"><span class="type-signature">(static) </span>isBrowser<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_isBrowser.js.html">util/common/isBrowser.js</a>, <a href="util_common_isBrowser.js.html#line16">line 16</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>陈胜  &lt;chensheng@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    isBrowser类 判断浏览器及浏览器版本234.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let s =  JFE.util.isBrowser().s
+      let type =  JFE.util.isBrowser().type
+      console.log('s',s)
+      console.log('type',type)</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isCharacter"><span class="type-signature">(static) </span>isCharacter<span class="signature">(str)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-character.js.html">util/type/is-character.js</a>, <a href="util_type_is-character.js.html#line8">line 8</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>徐媛媛 &lt;xyy@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断字符串是否为中英文字符
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">输入的字符串</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isDate"><span class="type-signature">(static) </span>isDate<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-date.js.html">util/type/is-date.js</a>, <a href="util_type_is-date.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是日期类型。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isDate(new Date()) //true
+ </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Date</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isFunction"><span class="type-signature">(static) </span>isFunction<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-function.js.html">util/type/is-function.js</a>, <a href="util_type_is-function.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是函数类型。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isFunction(fn(){...}) //true
+ </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isInteger"><span class="type-signature">(static) </span>isInteger<span class="signature">()</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-Integer.js.html">util/type/is-Integer.js</a>, <a href="util_type_is-Integer.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>吕颖萍 &lt;lvyingping@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断对象是否为整数
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>isInteger(3); // true
+isInteger(3.3); // false
+isInteger(''); // false
+isInteger('3'); // false
+isInteger(true); // false
+isInteger([]); // false</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isNumber"><span class="type-signature">(static) </span>isNumber<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-number.js.html">util/type/is-number.js</a>, <a href="util_type_is-number.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是数值类型。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isNumber(1) //true
+ </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isObject"><span class="type-signature">(static) </span>isObject<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-object.js.html">util/type/is-object.js</a>, <a href="util_type_is-object.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是对象类型。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isObject({...}) //true
+ </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isObjectEmpty"><span class="type-signature">(static) </span>isObjectEmpty<span class="signature">(val)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_type_is-object-empty.js.html">util/type/is-object-empty.js</a>, <a href="util_type_is-object-empty.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>王帅  &lt;ws@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    判断是否是对象是否为空。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.isObjectEmpty({}) //true
+ </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要判断的对象</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".maxObj"><span class="type-signature">(static) </span>maxObj<span class="signature">(item)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_maxObj.js.html">util/common/maxObj.js</a>, <a href="util_common_maxObj.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    查找指定字符串或者数组中 出现最多的项 和 出现的次数
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.maxObj('aabbbdddddeecla') //{maxKey: "d", maxNum: 5}
+ JFE.util.maxObj(['a','b','c','b']) //{maxKey: "b", maxNum: 2}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>item</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+|
+
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">字符串或者数组</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    结果
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".openWindow"><span class="type-signature">(static) </span>openWindow<span class="signature">(url, windowName, width, height)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_openWindow.js.html">util/common/openWindow.js</a>, <a href="util_common_openWindow.js.html#line10">line 10</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>商业庆 &lt;shangyeqing@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    打开一个窗体
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>url</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">传入页面地址</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>windowName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">传入窗口名字</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>width</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">传入窗口高度</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>height</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">传入窗口宽度</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".Random"><span class="type-signature">(static) </span>Random<span class="signature">(min, max)</span><span class="type-signature"> &rarr; {Number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_random.js.html">util/common/random.js</a>, <a href="util_common_random.js.html#line17">line 17</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    取最大值，最小值之间的随机整数值。
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.Random(1,10) </code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>min</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">最小值</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>max</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">最大值</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Number</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".strContains"><span class="type-signature">(static) </span>strContains<span class="signature">(sourceStr, str, isIgnoreCase)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_strContains.js.html">util/common/strContains.js</a>, <a href="util_common_strContains.js.html#line15">line 15</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>魏彬  &lt;weibin@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    指定源字符串sourceStr中是否包含str字符串*
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.util.strContains('ABCDefg','CDEF',false) // false
+     JFE.util.strContains('ABCDefg','CDEF',true) // true</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>sourceStr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">源字符串</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要查找的字符串</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>isIgnoreCase</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">是否忽略大小写</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    结果
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".urlArgs"><span class="type-signature">(static) </span>urlArgs<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_urlArgs.js.html">util/common/urlArgs.js</a>, <a href="util_common_urlArgs.js.html#line17">line 17</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>韩凯波  &lt;hkb@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    取得URL的search信息转为对象形式
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>xxxxxxxx/index.html?x=12&amp;b=13
+  JFE.util.urlArgs() // {x:12,b:13}</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".urlTrans"><span class="type-signature">(static) </span>urlTrans<span class="signature">(obj)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="util_common_urlTrans.js.html">util/common/urlTrans.js</a>, <a href="util_common_urlTrans.js.html#line20">line 20</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>杨羽珂  &lt;yyk@jusfoun.com></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    将对象转为 a=aaa&b=bbb 形式
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let obj = {
+    a:'1',
+    b:'2'
+  }
+
+ JFE.util.urlTrans(obj) //?a=1&amp;b=2</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>obj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">传入的对象</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    九次方大数据 — 前端研发部&nbsp;&nbsp;&nbsp;<a href="https://jusfoun-fe.github.io/ 
+
+">https://jusfoun-fe.github.io/</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><br/><br/><br/>
+    JFE.chart 图表库，提供了一些项目中常用图表。<br/>
+    JFE.util 脚本库，提供了项目中常用的工具函数<br/>
+    JFE.visual可视化组件库，提供基于D3，THREE.js支持的可视化3D组件 <br/><br/>
+        上次更新时间:
+    2019年1月3日
+    </span>
+     
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

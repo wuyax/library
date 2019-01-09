@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><?js= title ?> - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <?js= this.nav ?>
+</nav>
+
+<div id="main">
+    <?js if (title != 'Home') { ?>
+    <h1 class="page-title"><?js= title ?></h1>
+    <?js } ?>
+
+    <?js= content ?>
+</div>
+
+<br class="clear">
+
+<footer>
+    九次方大数据 — 前端研发部&nbsp;&nbsp;&nbsp;<a href="https://jusfoun-fe.github.io/ 
+
+">https://jusfoun-fe.github.io/</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><br/><br/><br/>
+    JFE.chart 图表库，提供了一些项目中常用图表。<br/>
+    JFE.util 脚本库，提供了项目中常用的工具函数<br/>
+    JFE.visual可视化组件库，提供基于D3，THREE.js支持的可视化3D组件 <br/><br/>
+        上次更新时间:
+    <?js if(env.conf.templates && env.conf.templates.default && env.conf.templates.default.includeDate !== false) { ?><?js= (new Date().getFullYear()+'年'+parseInt(new Date().getMonth()+1)+'月'+new Date().getDate()+'日') ?><?js } ?>
+    </span>
+     
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

@@ -1,0 +1,3624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Map3D - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">JFE</a></h2><h3>Namespaces</h3><ul><li><a href="chart.html">chart</a></li><li><a href="visual.html">visual</a></li></ul><h3>Classes</h3><ul><li><a href="module-Map3D-Area.html">Area</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Area.html#getExtrudeGeometry">getExtrudeGeometry</a></li><li data-type='method'><a href="module-Map3D-Area.html#getGeoMesh">getGeoMesh</a></li><li data-type='method'><a href="module-Map3D-Area.html#getGeoPoints">getGeoPoints</a></li><li data-type='method'><a href="module-Map3D-Area.html#getLine">getLine</a></li><li data-type='method'><a href="module-Map3D-Area.html#getMesh">getMesh</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-Area.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-Area.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Area.html#setPosition">setPosition</a></li><li data-type='method'><a href="module-Map3D-Area.html#setRotation">setRotation</a></li><li data-type='method'><a href="module-Map3D-Area.html#setScale">setScale</a></li></ul></li><li><a href="module-Map3D-DataRange.html">DataRange</a><ul class='methods'><li data-type='method'><a href="module-Map3D-DataRange.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#select">select</a></li><li data-type='method'><a href="module-Map3D-DataRange.html#unselect">unselect</a></li></ul></li><li><a href="module-Map3D-Line.html">Line</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Line.html#.draw">draw</a></li><li data-type='method'><a href="module-Map3D-Line.html#initHalo">initHalo</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmousedown">onmousedown</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmouseout">onmouseout</a></li><li data-type='method'><a href="module-Map3D-Line.html#onmouseover">onmouseover</a></li><li data-type='method'><a href="module-Map3D-Line.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Line.html#setLineWidth">setLineWidth</a></li></ul></li><li><a href="module-Map3D-Map3D.html">Map3D</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Map3D.html#.transition">transition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#addCameraPosition">addCameraPosition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#createArea">createArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#disable">disable</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#dispose">dispose</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getArea">getArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getMark">getMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#getObjectsByName">getObjectsByName</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#inintDataRange">inintDataRange</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#init">init</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initArea">initArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initControls">initControls</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initDebug">initDebug</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initLine">initLine</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initMark">initMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#initStats">initStats</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#printCameraPosition">printCameraPosition</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#removeMark">removeMark</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#renderScene">renderScene</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#reomveArea">reomveArea</a></li><li data-type='method'><a href="module-Map3D-Map3D.html#setCameraPosition">setCameraPosition</a></li></ul></li><li><a href="module-Map3D-Mark.html">Mark</a><ul class='methods'><li data-type='method'><a href="module-Map3D-Mark.html#.draw">draw</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setColor">setColor</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setPosition">setPosition</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setRotation">setRotation</a></li><li data-type='method'><a href="module-Map3D-Mark.html#setScale">setScale</a></li></ul></li><li><a href="module-Nebula-Nebula.html">Nebula</a><ul class='methods'><li data-type='method'><a href="module-Nebula-Nebula.html#rotate">rotate</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-charts.html">charts</a></li><li><a href="module-Map3D.html">Map3D</a><ul class='methods'><li data-type='method'><a href="module-Map3D.html#~colorToHex">colorToHex</a></li></ul></li><li><a href="module-Nebula.html">Nebula</a></li></ul><h3>Global</h3><ul><li><a href="global.html#_Math">_Math</a></li><li><a href="global.html#absNumericalSort">absNumericalSort</a></li><li><a href="global.html#addLineNumbers">addLineNumbers</a></li><li><a href="global.html#AmbientLight">AmbientLight</a></li><li><a href="global.html#AnimationAction">AnimationAction</a></li><li><a href="global.html#AnimationClip">AnimationClip</a></li><li><a href="global.html#AnimationMixer">AnimationMixer</a></li><li><a href="global.html#AnimationObjectGroup">AnimationObjectGroup</a></li><li><a href="global.html#AnimationUtils">AnimationUtils</a></li><li><a href="global.html#ArrayCamera">ArrayCamera</a></li><li><a href="global.html#arrayMax">arrayMax</a></li><li><a href="global.html#Audio">Audio</a></li><li><a href="global.html#AudioAnalyser">AudioAnalyser</a></li><li><a href="global.html#AudioListener">AudioListener</a></li><li><a href="global.html#AudioLoader">AudioLoader</a></li><li><a href="global.html#AxisHelper">AxisHelper</a></li><li><a href="global.html#Bone">Bone</a></li><li><a href="global.html#BooleanKeyframeTrack">BooleanKeyframeTrack</a></li><li><a href="global.html#Box2">Box2</a></li><li><a href="global.html#Box3">Box3</a></li><li><a href="global.html#Box3Helper">Box3Helper</a></li><li><a href="global.html#BoxGeometry">BoxGeometry</a></li><li><a href="global.html#BoxHelper">BoxHelper</a></li><li><a href="global.html#Browser">Browser</a></li><li><a href="global.html#BufferAttribute">BufferAttribute</a></li><li><a href="global.html#BufferGeometry">BufferGeometry</a></li><li><a href="global.html#BufferGeometryLoader">BufferGeometryLoader</a></li><li><a href="global.html#Cache">Cache</a></li><li><a href="global.html#Camera">Camera</a></li><li><a href="global.html#CameraHelper">CameraHelper</a></li><li><a href="global.html#CanvasTexture">CanvasTexture</a></li><li><a href="global.html#CatmullRom">CatmullRom</a></li><li><a href="global.html#CircleGeometry">CircleGeometry</a></li><li><a href="global.html#Clock">Clock</a></li><li><a href="global.html#ColorKeyframeTrack">ColorKeyframeTrack</a></li><li><a href="global.html#ColorKeywords">ColorKeywords</a></li><li><a href="global.html#Composite">Composite</a></li><li><a href="global.html#CompressedTexture">CompressedTexture</a></li><li><a href="global.html#CompressedTextureLoader">CompressedTextureLoader</a></li><li><a href="global.html#ConeGeometry">ConeGeometry</a></li><li><a href="global.html#count">count</a></li><li><a href="global.html#CubeCamera">CubeCamera</a></li><li><a href="global.html#CubeTexture">CubeTexture</a></li><li><a href="global.html#CubeTextureLoader">CubeTextureLoader</a></li><li><a href="global.html#CubicInterpolant">CubicInterpolant</a></li><li><a href="global.html#CylinderGeometry">CylinderGeometry</a></li><li><a href="global.html#Cylindrical">Cylindrical</a></li><li><a href="global.html#DataTexture">DataTexture</a></li><li><a href="global.html#DataTextureLoader">DataTextureLoader</a></li><li><a href="global.html#debug">debug</a></li><li><a href="global.html#DepthTexture">DepthTexture</a></li><li><a href="global.html#Detector">Detector</a></li><li><a href="global.html#DirectGeometry">DirectGeometry</a></li><li><a href="global.html#DirectionalLight">DirectionalLight</a></li><li><a href="global.html#DirectionalLightHelper">DirectionalLightHelper</a></li><li><a href="global.html#DirectionalLightShadow">DirectionalLightShadow</a></li><li><a href="global.html#DiscreteInterpolant">DiscreteInterpolant</a></li><li><a href="global.html#DodecahedronGeometry">DodecahedronGeometry</a></li><li><a href="global.html#EdgesGeometry">EdgesGeometry</a></li><li><a href="global.html#emptyTexture">emptyTexture</a></li><li><a href="global.html#Euler">Euler</a></li><li><a href="global.html#EventDispatcher">EventDispatcher</a></li><li><a href="global.html#ExtrudeGeometry">ExtrudeGeometry</a></li><li><a href="global.html#Face3">Face3</a></li><li><a href="global.html#Face4">Face4</a></li><li><a href="global.html#FaceNormalsHelper">FaceNormalsHelper</a></li><li><a href="global.html#FileLoader">FileLoader</a></li><li><a href="global.html#Fog">Fog</a></li><li><a href="global.html#FogExp2">FogExp2</a></li><li><a href="global.html#Font">Font</a></li><li><a href="global.html#FontLoader">FontLoader</a></li><li><a href="global.html#Frustum">Frustum</a></li><li><a href="global.html#getBoneList">getBoneList</a></li><li><a href="global.html#getFocalLength">getFocalLength</a></li><li><a href="global.html#GridHelper">GridHelper</a></li><li><a href="global.html#Group">Group</a></li><li><a href="global.html#HemisphereLight">HemisphereLight</a></li><li><a href="global.html#HemisphereLightHelper">HemisphereLightHelper</a></li><li><a href="global.html#IcosahedronGeometry">IcosahedronGeometry</a></li><li><a href="global.html#ImageLoader">ImageLoader</a></li><li><a href="global.html#ImmediateRenderObject">ImmediateRenderObject</a></li><li><a href="global.html#InstancedBufferAttribute">InstancedBufferAttribute</a></li><li><a href="global.html#InstancedBufferGeometry">InstancedBufferGeometry</a></li><li><a href="global.html#InstancedInterleavedBuffer">InstancedInterleavedBuffer</a></li><li><a href="global.html#InterleavedBuffer">InterleavedBuffer</a></li><li><a href="global.html#InterleavedBufferAttribute">InterleavedBufferAttribute</a></li><li><a href="global.html#Interpolant">Interpolant</a></li><li><a href="global.html#JSONLoader">JSONLoader</a></li><li><a href="global.html#KeyframeTrack">KeyframeTrack</a></li><li><a href="global.html#LatheGeometry">LatheGeometry</a></li><li><a href="global.html#Layers">Layers</a></li><li><a href="global.html#LensFlare">LensFlare</a></li><li><a href="global.html#Light">Light</a></li><li><a href="global.html#LightShadow">LightShadow</a></li><li><a href="global.html#Line">Line</a></li><li><a href="global.html#Line3">Line3</a></li><li><a href="global.html#LinearInterpolant">LinearInterpolant</a></li><li><a href="global.html#LineBasicMaterial">LineBasicMaterial</a></li><li><a href="global.html#LineDashedMaterial">LineDashedMaterial</a></li><li><a href="global.html#lineGeometry">lineGeometry</a></li><li><a href="global.html#LineLoop">LineLoop</a></li><li><a href="global.html#LineSegments">LineSegments</a></li><li><a href="global.html#Loader">Loader</a></li><li><a href="global.html#LoadingManager">LoadingManager</a></li><li><a href="global.html#LOD">LOD</a></li><li><a href="global.html#materialId">materialId</a></li><li><a href="global.html#MaterialLoader">MaterialLoader</a></li><li><a href="global.html#Matrix3">Matrix3</a></li><li><a href="global.html#Matrix4">Matrix4</a></li><li><a href="global.html#Mesh">Mesh</a></li><li><a href="global.html#MeshBasicMaterial">MeshBasicMaterial</a></li><li><a href="global.html#MeshDepthMaterial">MeshDepthMaterial</a></li><li><a href="global.html#MeshDistanceMaterial">MeshDistanceMaterial</a></li><li><a href="global.html#MeshLambertMaterial">MeshLambertMaterial</a></li><li><a href="global.html#MeshNormalMaterial">MeshNormalMaterial</a></li><li><a href="global.html#MeshPhongMaterial">MeshPhongMaterial</a></li><li><a href="global.html#MeshPhysicalMaterial">MeshPhysicalMaterial</a></li><li><a href="global.html#MeshStandardMaterial">MeshStandardMaterial</a></li><li><a href="global.html#MeshToonMaterial">MeshToonMaterial</a></li><li><a href="global.html#NumberKeyframeTrack">NumberKeyframeTrack</a></li><li><a href="global.html#object3DId">object3DId</a></li><li><a href="global.html#ObjectLoader">ObjectLoader</a></li><li><a href="global.html#OctahedronGeometry">OctahedronGeometry</a></li><li><a href="global.html#OrbitControls">OrbitControls</a></li><li><a href="global.html#OrthographicCamera">OrthographicCamera</a></li><li><a href="global.html#painterSortStable">painterSortStable</a></li><li><a href="global.html#ParametricGeometry">ParametricGeometry</a></li><li><a href="global.html#Path">Path</a></li><li><a href="global.html#PerspectiveCamera">PerspectiveCamera</a></li><li><a href="global.html#Plane">Plane</a></li><li><a href="global.html#PlaneGeometry">PlaneGeometry</a></li><li><a href="global.html#PlaneHelper">PlaneHelper</a></li><li><a href="global.html#PointLight">PointLight</a></li><li><a href="global.html#PointLightHelper">PointLightHelper</a></li><li><a href="global.html#Points">Points</a></li><li><a href="global.html#PointsMaterial">PointsMaterial</a></li><li><a href="global.html#PolarGridHelper">PolarGridHelper</a></li><li><a href="global.html#PolyhedronGeometry">PolyhedronGeometry</a></li><li><a href="global.html#PositionalAudio">PositionalAudio</a></li><li><a href="global.html#programIdCount">programIdCount</a></li><li><a href="global.html#PropertyMixer">PropertyMixer</a></li><li><a href="global.html#Quaternion">Quaternion</a></li><li><a href="global.html#QuaternionKeyframeTrack">QuaternionKeyframeTrack</a></li><li><a href="global.html#QuaternionLinearInterpolant">QuaternionLinearInterpolant</a></li><li><a href="global.html#RawShaderMaterial">RawShaderMaterial</a></li><li><a href="global.html#Ray">Ray</a></li><li><a href="global.html#Raycaster">Raycaster</a></li><li><a href="global.html#RectAreaLight">RectAreaLight</a></li><li><a href="global.html#RectAreaLightHelper">RectAreaLightHelper</a></li><li><a href="global.html#RingGeometry">RingGeometry</a></li><li><a href="global.html#sanitizeNodeName">sanitizeNodeName</a></li><li><a href="global.html#Scene">Scene</a></li><li><a href="global.html#SceneUtils">SceneUtils</a></li><li><a href="global.html#setFocalLength">setFocalLength</a></li><li><a href="global.html#setViewOffset">setViewOffset</a></li><li><a href="global.html#ShaderLib">ShaderLib</a></li><li><a href="global.html#ShaderMaterial">ShaderMaterial</a></li><li><a href="global.html#ShadowMaterial">ShadowMaterial</a></li><li><a href="global.html#Shape">Shape</a></li><li><a href="global.html#ShapeGeometry">ShapeGeometry</a></li><li><a href="global.html#ShapePath">ShapePath</a></li><li><a href="global.html#ShapeUtils">ShapeUtils</a></li><li><a href="global.html#Skeleton">Skeleton</a></li><li><a href="global.html#SkinnedMesh">SkinnedMesh</a></li><li><a href="global.html#Sphere">Sphere</a></li><li><a href="global.html#SphereGeometry">SphereGeometry</a></li><li><a href="global.html#Spherical">Spherical</a></li><li><a href="global.html#SpotLight">SpotLight</a></li><li><a href="global.html#SpotLightHelper">SpotLightHelper</a></li><li><a href="global.html#SpotLightShadow">SpotLightShadow</a></li><li><a href="global.html#Sprite">Sprite</a></li><li><a href="global.html#SpriteMaterial">SpriteMaterial</a></li><li><a href="global.html#Stats">Stats</a></li><li><a href="global.html#StereoCamera">StereoCamera</a></li><li><a href="global.html#StringKeyframeTrack">StringKeyframeTrack</a></li><li><a href="global.html#TetrahedronGeometry">TetrahedronGeometry</a></li><li><a href="global.html#TextGeometry">TextGeometry</a></li><li><a href="global.html#textureId">textureId</a></li><li><a href="global.html#TextureLoader">TextureLoader</a></li><li><a href="global.html#TorusGeometry">TorusGeometry</a></li><li><a href="global.html#TorusKnotGeometry">TorusKnotGeometry</a></li><li><a href="global.html#Triangle">Triangle</a></li><li><a href="global.html#TubeGeometry">TubeGeometry</a></li><li><a href="global.html#Uniform">Uniform</a></li><li><a href="global.html#UniformsCache">UniformsCache</a></li><li><a href="global.html#UniformsLib">UniformsLib</a></li><li><a href="global.html#UniformsUtils">UniformsUtils</a></li><li><a href="global.html#Vector2">Vector2</a></li><li><a href="global.html#Vector3">Vector3</a></li><li><a href="global.html#Vector4">Vector4</a></li><li><a href="global.html#VectorKeyframeTrack">VectorKeyframeTrack</a></li><li><a href="global.html#VertexNormalsHelper">VertexNormalsHelper</a></li><li><a href="global.html#VideoTexture">VideoTexture</a></li><li><a href="global.html#WebGLAttributes">WebGLAttributes</a></li><li><a href="global.html#WebGLBackground">WebGLBackground</a></li><li><a href="global.html#WebGLBufferRenderer">WebGLBufferRenderer</a></li><li><a href="global.html#WebGLCapabilities">WebGLCapabilities</a></li><li><a href="global.html#WebGLClipping">WebGLClipping</a></li><li><a href="global.html#WebGLExtensions">WebGLExtensions</a></li><li><a href="global.html#WebGLFlareRenderer">WebGLFlareRenderer</a></li><li><a href="global.html#WebGLGeometries">WebGLGeometries</a></li><li><a href="global.html#WebGLIndexedBufferRenderer">WebGLIndexedBufferRenderer</a></li><li><a href="global.html#WebGLObjects">WebGLObjects</a></li><li><a href="global.html#WebGLPrograms">WebGLPrograms</a></li><li><a href="global.html#WebGLProperties">WebGLProperties</a></li><li><a href="global.html#WebGLRenderer">WebGLRenderer</a></li><li><a href="global.html#WebGLRenderTargetCube">WebGLRenderTargetCube</a></li><li><a href="global.html#WebGLShadowMap">WebGLShadowMap</a></li><li><a href="global.html#WebGLSpriteRenderer">WebGLSpriteRenderer</a></li><li><a href="global.html#WebGLState">WebGLState</a></li><li><a href="global.html#WebGLTextures">WebGLTextures</a></li><li><a href="global.html#WebGLUtils">WebGLUtils</a></li><li><a href="global.html#WebVRManager">WebVRManager</a></li><li><a href="global.html#WireframeGeometry">WireframeGeometry</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Map3D</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="module-Map3D.html">Map3D</a>~</span>
+        
+        Map3D
+        </h2>
+        
+            <div class="class-description">创建3D地图.</div>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+    
+    <h2>Constructor</h2>
+    
+
+    <h4 class="name" id="Map3D"><span class="type-signature"></span>new Map3D<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line134">line 134</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>//配置默认值
+let opt={
+     name:'',                // 调试使用，window['name']为该实例对象，注意设置debugger:true启用
+     el:document.body,       // 容器
+     geoData:null,           // 地图geojson数据
+     hasStats:true,          // 是否显示性能面板
+     hasControls:true,       // 用户是否能控制视角
+     autoRotate:false,       // 是否自动旋转视角
+     ambientColor:0x333333,  // 环境光颜色
+     directionalColor:0xffffff,// 平行光颜色
+     hasLoadEffect:false,    // 是否有加载效果
+     debugger:false,         // 调试模式
+     cameraPosition:{x:0,y:0,z:40},// 相机位置
+     visualMap:null,         // 直观图图例
+     extrude:extrudeOption,  // 立体厚度参数
+
+     area:{
+         data:[],            // 地图用户数据[{ name:'北京', value:, color:0xff3333 }...]
+         // area参数默认值
+         name:'',            // 区域名称
+         color:0x3366ff,     // 地图颜色
+         hoverColor:0xff9933,// 鼠标移入颜色
+         lineColor:0xffffff, // 线颜色
+         opacity:1,          // 地图透明度
+         hasPhong:true,      // 是否反光材质
+         shininess:50,       // 反光材质光滑度
+         hoverAnimaTime:100, // 鼠标移入动画过渡时间
+         loadEffect:false,   // 区域加载效果
+         hasHoverHeight:true,// 鼠标移入区域升高
+     },
+
+     mark:{
+         data:[],            // 标注点数据[{ name:'XXX', coord:[11,22], value:13 }...]
+         // mark参数默认值
+         name:'',            // 标注名称
+         color:0xffffff,     // 标注点颜色
+         hoverColor:0xff9933,// 鼠标移入颜色
+         hoverAnimaTime:100, // 鼠标移入动画过渡时间
+         min:0.01,
+         max:5,
+     },
+
+     line:{
+         data:[],                        //线数据[{ fromName:'', toName:'', coords:[toCoord, fromCoord] }...]
+         // line参数默认值
+         color:0x55eeff,                 // 颜色
+         hoverColor:0xff9933,            // 鼠标移入颜色
+         hoverExclusive:true,            // 鼠标移入排除其他线条
+         hoverAnimaTime:100,             // 鼠标移入动画过渡时间
+         spaceHeight:5,                  // 曲线空间高度
+         hasHalo:true,                   // 是否开启光晕效果
+         hasHaloAnimate:true,            // 是否开启光晕动画效果
+         haloDensity:2,                  // 光点密度 值越大 越浓密，越消耗性能
+         haloRunRate:0.01,               // 光点运动频率
+         haloColor:0xffffff,             // 默认继承color颜色[不建议修改]
+         haloSize:10,                    // 光晕大小
+         decayColor:0x222222,            // 未激活线条颜色
+     },
+
+     //内置对象
+     mapObject:null,     // 地图对象
+     areaGroup:null,     // 区域组
+     lineGroup:null,     // 线条组
+     markGroup:null,     // 标记组
+     scene:null,         // 场景对象
+     camera:null,        // 相机对象
+     renderer:null,      // 渲染器对象
+     stats:null,         // 性能对象
+     controls:null,      // 控制器对象
+     _w:0,               // 呈现宽度
+     _h:0,               // 呈现高度
+     __event:null,        // 事件对象
+ }
+
+let map = new JFE.visual.Map3D(opt);
+
+//事件注册
+  map.addEventListener('mousedown', function (event) {
+       let obj = event.target;
+       if(obj.type==='Area') //type='Area|Line|Mark'
+         obj.setColor('#ff6666', 500);
+     });
+
+  map.addEventListener('mouseout', (event) => {
+       let obj = event.target;
+       console.log(obj.type+':out')
+     });
+
+  map.addEventListener('mouseover', (event) => {
+       let obj = event.target;
+       console.log(obj.userData.name);
+       //self.mapTitlePositon.left = $(window).scrollLeft() + event.clientX + 20 + 'px';
+       //self.mapTitlePositon.top = $(window).scrollTop() + event.clientY + 20 + 'px';
+     })
+
+  map.addEventListener('resize', function (event) {
+       console.log('resize...');
+     });</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".transition"><span class="type-signature">(static) </span>transition<span class="signature">(from, to, time<span class="signature-attributes">opt</span>, delay<span class="signature-attributes">opt</span>, callback<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line853">line 853</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    过渡动画
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>JFE.visual.Map3D.transition(area.position, {x:0,y:0,z:10}, 1000)</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>from</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+|
+
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">修改的启始值</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>to</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+|
+
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">修改的结束值</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>time</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">完成时间</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">延迟时间</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">callback</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">完成回调</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="addCameraPosition"><span class="type-signature"></span>addCameraPosition<span class="signature">(ps, time<span class="signature-attributes">opt</span>, delay<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line462">line 462</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    相机位置-现有位置追加
+- 通过该方法实现视角转换动画
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>//镜头拉近z:-10,地图放大,1000ms动画
+map.addCameraPosition({z:-10},1000)</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ps</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">v3</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">如：{x:0,y:0,y:2}</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>time</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">动画时间</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">int</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">延时</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="createArea"><span class="type-signature"></span>createArea<span class="signature">(item)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line812">line 812</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    创建区域
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>item</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last">区域名称</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">color</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0x3366ff</code>
+                
+                </td>
+            
+
+            <td class="description last">区域颜色</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hoverColor</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">color</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0xff9933</code>
+                
+                </td>
+            
+
+            <td class="description last">区域鼠标选中颜色</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>opacity</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last">区域透明度</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hasPhong</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last">是否反光材质</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>shininess</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>50</code>
+                
+                </td>
+            
+
+            <td class="description last">反光材质光滑度</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hoverAnimaTime</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>100</code>
+                
+                </td>
+            
+
+            <td class="description last">鼠标移入动画过渡时间</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>loadEffect</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last">区域加载效果</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hasHoverHeight</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last">鼠标移入区域升高</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="disable"><span class="type-signature"></span>disable<span class="signature">(disable)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line496">line 496</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    禁用
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>disable</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">是否禁用</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="dispose"><span class="type-signature"></span>dispose<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line488">line 488</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    销毁地图对象
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getArea"><span class="type-signature"></span>getArea<span class="signature">(areaName)</span><span class="type-signature"> &rarr; {Area}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line613">line 613</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    得到地图区域
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>areaName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">地图区域名称  <a href="module-Map3D-Area.html">Area</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Area</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getMark"><span class="type-signature"></span>getMark<span class="signature">(markName)</span><span class="type-signature"> &rarr; {Mark}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line621">line 621</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    得到地图标注
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>markName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">地图标注名称 <a href="module-Map3D-Mark.html">Mark</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Mark</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getObjectsByName"><span class="type-signature"></span>getObjectsByName<span class="signature">(name)</span><span class="type-signature"> &rarr; {Array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line630">line 630</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    通过name得到地图相关对象集合 <a href="https://threejs.org/docs/#api/core/Object3D">THREE.Object3D</a>[]
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">对象名称</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="inintDataRange"><span class="type-signature"></span>inintDataRange<span class="signature">(dataRangeOpt)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line340">line 340</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="module-Map3D-DataRange.html">module:Map3D~DataRange</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    数据范围初始化方法 
+- 初始化后数据范围都保存在 map.dataRangeGroup.children 中
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>dataRangeOpt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">json</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数据范围配置</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="init"><span class="type-signature"></span>init<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line250">line 250</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    初始化方法
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initArea"><span class="type-signature"></span>initArea<span class="signature">(areaOpt)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line318">line 318</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="module-Map3D-Area.html">module:Map3D~Area</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    地图区域初始化方法 
+- 初始化后区域都保存在 map.areaGroup.children 中
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>areaOpt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">json</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">区域配置</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initControls"><span class="type-signature"></span>initControls<span class="signature">()</span><span class="type-signature"> &rarr; {THREE.OrbitControls}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line521">line 521</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    初始化控制器,返回<a href="https://threejs.org/docs/#examples/controls/OrbitControls">THREE.OrbitControls</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">THREE.OrbitControls</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initDebug"><span class="type-signature"></span>initDebug<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line552">line 552</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    初始化调试模式
+- 开启性能监控面板
+- 显示地平线、xyz轴线、灯光辅助线、相机位置、地图全局命名变量(需要先设置name属性)
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>new JFE.visual.Map3D({debugger:true})//开启调试模式</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initLine"><span class="type-signature"></span>initLine<span class="signature">(lineOpt)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line432">line 432</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="module-Map3D-Line.html">module:Map3D~Line</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    线条初始化方法
+- 初始化后标注都保存在 map.lineGroup.children 中
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>lineOpt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">json</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">线条配置</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initMark"><span class="type-signature"></span>initMark<span class="signature">(markOpt)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line406">line 406</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="module-Map3D-Mark.html">module:Map3D~Mark</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    标注初始化方法
+- 初始化后标注都保存在 map.markGroup.children 中
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>markOpt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">json</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">标注配置</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="initStats"><span class="type-signature"></span>initStats<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="global.html#Stats">Stats</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line534">line 534</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    初始化性能监控器 - debugger:true 自动开启，返回<a href="https://github.com/mrdoob/stats.js">stats</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="global.html#Stats">Stats</a></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="printCameraPosition"><span class="type-signature"></span>printCameraPosition<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line584">line 584</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    打印相机位置在屏幕，需要开启debugger模式
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="removeMark"><span class="type-signature"></span>removeMark<span class="signature">(mark)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line603">line 603</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    删除标注
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>mark</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+|
+
+<span class="param-type">Mark</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要删除的标注名称或者标注对象 <a href="module-Map3D-Mark.html">Mark</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="renderScene"><span class="type-signature">(protected) </span>renderScene<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line644">line 644</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    地图呈现
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="reomveArea"><span class="type-signature"></span>reomveArea<span class="signature">(area)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line593">line 593</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    删除区域
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>area</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+|
+
+<span class="param-type">Area</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">要删除的区域名称或者区域对象 <a href="module-Map3D-Area.html">Area</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="setCameraPosition"><span class="type-signature"></span>setCameraPosition<span class="signature">(ps, time<span class="signature-attributes">opt</span>, delay<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="visual_Map3D.js.html">visual/Map3D.js</a>, <a href="visual_Map3D.js.html#line478">line 478</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    相机位置-新位置设置
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ps</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">v3</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">如：{x:0,y:0,y:2}</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>time</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">动画时间</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">int</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">延时</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    九次方大数据 — 前端研发部&nbsp;&nbsp;&nbsp;<a href="https://jusfoun-fe.github.io/ 
+
+">https://jusfoun-fe.github.io/</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><br/><br/><br/>
+    JFE.chart 图表库，提供了一些项目中常用图表。<br/>
+    JFE.util 脚本库，提供了项目中常用的工具函数<br/>
+    JFE.visual可视化组件库，提供基于D3，THREE.js支持的可视化3D组件 <br/><br/>
+        上次更新时间:
+    2019年1月3日
+    </span>
+     
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
